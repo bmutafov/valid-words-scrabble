@@ -1,0 +1,52 @@
+:root {
+  --sizing-xs: 0.25rem;
+  --sizing-sm: 0.5rem;
+  --sizing-md: 1rem;
+  --sizing-lg: 2rem;
+  --sizing-xl: 3rem;
+  --sizing-xxl: 5rem;
+}
+
+#root *:focus {
+  outline: 5px solid var(--color-yellow);
+  outline-offset: var(--sizing-xs);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-dark-blue);
+}
+
+#root.valid {
+  background-color: var(--color-green);
+}
+
+#root.invalid {
+  background-color: var(--color-red);
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#search-result {
+  color: white;
+  font-size: var(--sizing-xl);
+  padding: var(--sizing-xl);
+}
+
+#search-input {
+  padding: var(--sizing-lg) var(--sizing-xl);
+  font-size: var(--sizing-xl);
+  border: none;
+  color: var(--color-dark-blue);
+  border-radius: var(--sizing-md);
+  border-right: none;
+}
