@@ -5,12 +5,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-
-  --color-bg: #fcfcfc;
-  --color-green: #06d6a0;
-  --color-red: #ef476f;
-  --color-yellow: #ffd166;
-  --color-dark-blue: #26547c;
 }
 
 html,
