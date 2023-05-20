@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/oldtimer');
+
 :root {
   --sizing-xs: 0.25rem;
   --sizing-sm: 0.5rem;
@@ -19,6 +21,7 @@
 }
 
 #root {
+  font-family: 'Oldtimer', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,6 +52,7 @@
 }
 
 #search-input {
+  font-family: 'Oldtimer', sans-serif;
   padding: var(--sizing-lg) var(--sizing-xl);
   font-size: var(--sizing-xl);
   border: none;
